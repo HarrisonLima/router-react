@@ -6,6 +6,7 @@ export default function Banner() {
     <div className={styles.banner}>
       <div className={styles.apresentacao}>
         <h1 className={styles.titulo}>Olá, Mundo!</h1>
+
         <p className={styles.paragrafo}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -16,14 +17,20 @@ export default function Banner() {
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
+
       <div className={styles.imagens}>
         <img
           className={styles.circuloColorido}
           src={circuloColorido}
           aria-hidden={true}
           alt=""
-        ></img>
-        {/* <img className={styles.minhaFoto} src='https://th.bing.com/th/id/OIP.iW8n5QVZ4-eBMDA4v3Wz3AHaHu?rs=1&pid=ImgDetMain' alt="Foto perfil" aria-hidden={true}></img> */}
+        />
+
+        {/* <img
+                    className={styles.minhaFoto}
+                    src={}
+                    alt="Foto perfil"
+                /> */}
       </div>
     </div>
   );
